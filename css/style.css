@@ -24,10 +24,11 @@ h1 {
 }
 
 article {
+    display: block;
     width: 760px;
     margin: 0 avto 32px;
-    padding: 6px 15px;
-    border-bottom: 1px solid rgb(128,128,128);
+    padding: 10px 590px;
+
 }
 
 article a {
