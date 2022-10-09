@@ -26,7 +26,6 @@ h1 {
 article {
     display: block;
     width: 760px;
-    margin: 0 avto 32px;
     padding: 10px 590px;
 
 }
@@ -54,6 +53,18 @@ article img {
     height: 300px;
     object-fit: cover;
 }
+
+.id:hover{
+    background: orange;
+}
+
+.ed:hover{
+    background: greenyellow;
+}
+
+.box::after {
+    content: " New"
+} 
 
 footer {
     padding-top: 20px;
